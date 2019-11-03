@@ -1,0 +1,233 @@
+:root{
+    --main-font-color: #05386B; 
+    --dark-bg-color: #379683;
+    --normal-bg-color: #5CDB95;
+    --light-bg-color: #8EE4AF;
+    --white-font-color: #EDF5E1;
+}
+
+.navbar{
+    background-color: var(--dark-bg-color);
+}
+
+.ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding-left: 4vw;
+    align-content: center;
+    margin-top: 1vh;
+}
+
+.social{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.navbar-nav > li{
+    padding-left:5vw;
+    padding-right:5vw;;
+  }
+.navbar-nav .icon{
+    padding-left: 1vw;
+    padding-right: 1vw;
+    color: var(--main-font-color);
+}
+
+#name{
+    color: var(--white-font-color);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#portfolio{
+    color: var(--white-font-color);
+}
+
+#contact{
+    color: var(--white-font-color);
+    flex: 1;
+}
+
+#iconGit{
+    color: var(--white-font-color);
+    align-self: center;
+    flex: 1;
+}
+
+#iconIns{
+    color: var(--white-font-color);
+    flex: 1 1 30%;
+}
+
+#iconFb{
+    color: var(--white-font-color);
+    flex: 1 1 30%;
+}
+
+.bodypart-one-mid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    object-fit: contain;
+    background-size: cover;
+    height: 80vh;
+    width: 100vw;
+    background-image: url(photo/photo1.jpg) ;
+    color: var(--white-font-color)
+}
+
+#h1{
+    font-size: 6em;
+    text-shadow: 1px 1px 4px #111;
+}
+
+.bodypart-two-mid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 30vh);
+    background-color: var(--main-font-color);
+    height: 60vh;
+    width: 100vw;
+}
+
+.me{
+    height: 40vh;
+    width: 40vh;
+    align-self: center;
+    justify-self: center;
+    grid-row: span 2;
+}
+
+.about{
+    grid-column: span 2;
+    color: var(--white-font-color);
+    font-size: 21px;
+    text-align: center;
+    margin-top: 5vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.skills{
+    grid-column: span 2;
+    color: var(--light-bg-color);
+    justify-self: center;
+
+}
+
+.circular--square{
+    max-width:90%;
+    height:auto;
+    border-radius: 50%;
+    border: 4px solid var(--dark-bg-color);
+
+}
+
+.bodypart-three-mid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 30vh);
+    background-color: var(--main-font-color);
+    height: 240vh;
+    width: 100vw;
+}
+
+.item{
+ text-align: center;
+ border: 1px solid black;
+}
+
+.wide{
+ grid-column: span 2;
+}
+
+#title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-font-color);
+    background-color: var(--normal-bg-color);
+}
+
+.item{
+    position: relative;
+    object-fit: cover;
+}
+
+.link{
+    color: #111;
+}
+
+.item .link{
+    position: absolute;
+    display: block;
+    background-color: var(--main-font-color);
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.item:hover{
+    opacity: 0.5;
+}
+
+.big{
+ grid-column: span 2;
+ grid-row: span 2;
+}
+
+.img{
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+}
+
+.bodypart-one-bottom{
+    display: flex;
+    background-color: var(--dark-bg-color);
+    border: 2px solid black;
+    height: 60vh;
+    width: 100vw;
+}
+
+#title2{
+    width: 30vw;
+    height: 60vh;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    justify-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-font-color);
+}
+
+#adres{
+    width: 30vw;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20vh;
+    color: var(--white-font-color);
+}
+
+.messege{
+    justify-items: space-around;;
+    display: flex;
+    margin-left: 10vw;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+}
+
